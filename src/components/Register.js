@@ -2,10 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './Navbar'
 
 const Register = () => {
-var[name,setname]=useState()
- const changename=()=>{
-setname(name='anoop')
-}
+
 
   return (
     <div >          
