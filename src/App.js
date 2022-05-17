@@ -10,7 +10,7 @@ function App() {
     <div >
    <BrowserRouter>
   <Routes>
-    <Route path="/">
+    <Route path="/" exact element={<Register/>}>
 
     </Route>
   </Routes>
